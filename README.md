@@ -1,36 +1,193 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌱 Plastify - Sustainable Plastic Revolution (1st Year REPO)
 
-## Getting Started
+![Plastify Banner](/public/img/brandLogo.png)
 
-First, run the development server:
+## Overview
+
+Plastify is an innovative web platform revolutionizing waste management and sustainable manufacturing through a circular economy model. We transform organic bio-waste into high-quality, biodegradable plastic products, reducing environmental pollution while creating sustainable alternatives to traditional plastics.
+
+### LandingPage
+
+![landing page](SCREENSHOTS/landingPage.png)
+<br/><br/><hr/>
+
+### HomePage
+
+![Home1](SCREENSHOTS/Home1.png)
+
+![Home2](SCREENSHOTS/home2.png)
+
+![Home3](SCREENSHOTS/home3.png)
+<br/><br/><hr/>
+
+### Product
+
+![Product](SCREENSHOTS/product.png)
+<br/><br/><hr/>
+
+### About Page
+
+![About](SCREENSHOTS/about.png)
+<br/><br/><hr/>
+
+### Contact Page
+
+![Contact](SCREENSHOTS/contact.png)
+<br/><br/><hr/>
+
+### Checkout
+
+![Checkout](SCREENSHOTS/checkout.png)
+<br/><br/><hr/>
+
+### Contribution
+
+![Contribution](SCREENSHOTS/contribution.png)
+<br/><br/><hr/>
+
+> **Note:** This is an academic project developed for educational purposes to demonstrate sustainable technology solutions.
+
+## Mission
+
+Our mission is simple yet powerful:
+
+- Reduce environmental pollution
+- Create sustainable alternatives to traditional plastics
+- Empower communities to participate in the green revolution
+- Build a cleaner, greener planet
+
+## Features
+
+- **Product Catalog** - Browse eco-friendly biodegradable plastic products
+- **Order Management** - Seamless ordering system for sustainable products
+- **Coupon Code** - Use Coupon Code for discount
+- **Dashboard** - Track environmental impact and contributions
+- **Impact Tracker** - Visualize waste reduction and sustainability metrics
+- **Modern UI/UX** - Clean, intuitive interface built with Tailwind CSS
+
+## Tech Stack
+
+### Frontend
+
+- **Framework:** [Next.js](https://nextjs.org/) - React framework for production
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- **Icons:** [Lucide React](https://lucide.dev/) - Beautiful, consistent icons
+- **Notifications:** [React Toastify](https://fkhadra.github.io/react-toastify/) - Elegant toast notifications
+- **Alerts:** [SweetAlert2](https://sweetalert2.github.io/) - Beautiful, responsive alerts
+
+### Backend
+
+- **Database:** [MongoDB](https://www.mongodb.com/) - NoSQL database for flexible data storage
+- **PDF Generation:** [jsPDF](https://github.com/parallax/jsPDF) - Client-side PDF generation
+
+### Development Tools
+
+- **Language:** JavaScript
+- **Package Manager:** npm
+- **Version Control:** Git
+
+## Installation
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+- MongoDB
+
+### Setup Instructions
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/plastify.git
+cd plastify
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Install required packages**
+
+```bash
+npm install jspdf
+npm install lucide-react
+npm install sweetalert2
+npm install react-toastify
+```
+
+4. **Set up environment variables**
+
+Create a `.env.local` file in the root directory:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+NEXT_PUBLIC_IMAGE=/img/products
+DatabaseName=Plastify
+```
+
+5. **Run the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+# Key Features Explained
 
-To learn more about Next.js, take a look at the following resources:
+### What We Do
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Plastify transforms organic bio-waste that would otherwise end up in landfills into high-quality, biodegradable plastic products. Every product we create serves a practical purpose and represents a step toward a cleaner, greener planet.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Circular Economy Model
 
-## Deploy on Vercel
+We follow a complete circular economy approach:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Collect organic bio-waste
+2. Process and transform into biodegradable materials
+3. Manufacture high-quality products
+4. Products return to nature safely
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+
+This is an academic project, but suggestions and feedback are welcome!
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+## License
+
+This project is created for academic purposes only.
+
+## Team
+
+Created by Abhisek Dash
+
+## Contact
+
+For questions or feedback about this academic project:
+
+- Project Link: [https://github.com/Abhisek-Dash-Official/Plastify](https://github.com/Abhisek-Dash-Official/Plastify)
+
+## Acknowledgments
+
+- Inspired by real-world sustainable technology initiatives
+- Built with love for the environment
+
+---
+
+**⚠️ Academic Disclaimer:** This is an educational project developed for learning purposes. It demonstrates sustainable technology concepts and web development skills.
